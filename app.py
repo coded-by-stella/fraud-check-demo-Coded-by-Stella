@@ -35,7 +35,8 @@ No waiting, no manual checks, just clear results. A chart that tells the story a
 **Stack**  
 Python · pandas · scikit-learn · Streamlit · matplotlib  
 
-**Why it matters**  
+**Why it matters** 
+             
 Every business handling digital payments or customer data faces the same threats:  
 ❌ Fraud that drains revenue  
 ❌ Endless manual reviews that slow down teams  
@@ -43,9 +44,9 @@ Every business handling digital payments or customer data faces the same threats
 
 This demo shows how I can turn raw data into a tool that solves those pain points:  
 
-- ⚡ **Faster decisions** → predictions in seconds, not hours  
-- 📊 **Clarity for everyone** → insights that even non-technical staff can act on  
-- 💾 **Proof on demand** → exportable reports ready for audits or management  
+⚡ **Faster decisions** → predictions in seconds, not hours  
+📊 **Clarity for everyone** → insights that even non-technical staff can act on  
+💾 **Proof on demand** → exportable reports ready for audits or management  
 
 👉 Imagine giving your risk team a dashboard that flags threats *before* they turn into losses.  
 That’s the power of building AI-driven apps like this: simple to use, but critical for protecting your business.
