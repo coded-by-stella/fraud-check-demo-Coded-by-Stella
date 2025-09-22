@@ -32,7 +32,12 @@ st.markdown("""
 
 **Stack:** Python · pandas · scikit-learn · Streamlit · matplotlib  
 
-**Why it matters:** Even with a small demo, it shows how I can turn raw data + ML into a usable tool for risk teams.
+**Why it matters:**  
+Fraud and risk detection tools help companies **save time, reduce financial losses and support compliance**.  
+Even with a lightweight demo, this project shows how I can transform raw data into a usable tool that:  
+- ⚡ Speeds up decision-making with instant predictions  
+- 📊 Provides clear visual insights for non-technical staff  
+- 💾 Exports results for reporting or audit purposes  
 """)
 st.divider()
 
