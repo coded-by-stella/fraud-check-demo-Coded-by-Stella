@@ -25,6 +25,17 @@ if not Path("model.joblib").exists():
 st.set_page_config(page_title="Fraud Check Dashboard", page_icon="🛡️", layout="wide")
 st.title("🛡️ Fraud Check Dashboard (Demo)")
 
+st.markdown("""
+### 👩‍💻 Project Overview
+
+**What it does:** Upload a CSV of transactions, run a simple ML model to flag *Suspicious* vs *Legit*, view predictions, see a quick chart and download results.  
+
+**Stack:** Python · pandas · scikit-learn · Streamlit · matplotlib  
+
+**Why it matters:** Even with a small demo, it shows how I can turn raw data + ML into a usable tool for risk teams.
+""")
+st.divider()
+
 @st.cache_resource
 def load_model():
     return joblib.load("model.joblib")
@@ -90,3 +101,4 @@ if st.sidebar.button("Run prediction"):
     st.download_button("Download predictions CSV", data=csv, file_name="predictions.csv", mime="text/csv")
 else:
     st.info("Click **Run prediction** in the sidebar to score your data.")
+
