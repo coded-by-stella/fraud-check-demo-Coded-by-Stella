@@ -120,3 +120,45 @@ if st.sidebar.button("Run prediction"):
 else:
     st.info("Click **Run prediction** in the sidebar to score your data.")
 
+# Footer
+FOOTER_HTML = """
+<style>
+/* extra bottom padding so the footer doesn't cover content */
+.main .block-container { padding-bottom: 80px; }
+
+/* fixed footer */
+.footer {
+  position: fixed; left: 0; right: 0; bottom: 0;
+  width: 100%;
+  background: #fafafa;
+  border-top: 1px solid #eaeaea;
+  padding: 10px 16px;
+  font-size: 14px; color: #333;
+  z-index: 9999;
+}
+
+/* responsive layout */
+.footer-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex; gap: 8px; flex-wrap: wrap; align-items: center;
+  justify-content: center;
+}
+
+.footer a { text-decoration: none; color: #0366d6; }
+.footer a:hover { text-decoration: underline; }
+</style>
+
+<div class="footer">
+  <div class="footer-inner">
+    <span>This demo-app was coded & developed with ❤️ by <a href="https://portfolio-codedbystella.netlify.app/" target="_blank" rel="noopener">Stella Marrali</a></span>
+    <span>·</span>
+    <span>Open-sourced on <a href="https://github.com/coded-by-stella" target="_blank" rel="noopener">GitHub</a></span>
+    <span>·</span>
+    <span>Hosted on <a href="https://share.streamlit.io/" target="_blank" rel="noopener">Streamlit Community Cloud</a></span>
+  </div>
+</div>
+"""
+
+st.markdown(FOOTER_HTML, unsafe_allow_html=True)
+# End Footer
