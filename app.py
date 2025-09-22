@@ -28,18 +28,30 @@ st.title("🛡️ Fraud Check Dashboard (Demo)")
 st.markdown("""
 ### 👩‍💻 Project Overview
 
-**What it does:** Upload a CSV of transactions, run a simple ML model to flag *Suspicious* vs *Legit*, view predictions, see a quick chart and download results.  
+**What it does**  
+Upload a CSV of transactions and instantly see which ones are *Suspicious* vs *Legit*.  
+No waiting, no manual checks, just clear results. A chart that tells the story and a file you can download in one click.  
 
-**Stack:** Python · pandas · scikit-learn · Streamlit · matplotlib  
+**Stack**  
+Python · pandas · scikit-learn · Streamlit · matplotlib  
 
-**Why it matters:**  
-Fraud and risk detection tools help companies **save time, reduce financial losses and support compliance**.  
-Even with a lightweight demo, this project shows how I can transform raw data into a usable tool that:  
-- ⚡ Speeds up decision-making with instant predictions  
-- 📊 Provides clear visual insights for non-technical staff  
-- 💾 Exports results for reporting or audit purposes  
+**Why it matters**  
+Every business handling digital payments or customer data faces the same threats:  
+❌ Fraud that drains revenue  
+❌ Endless manual reviews that slow down teams  
+❌ Blind spots that lead to compliance risks  
+
+This demo shows how I can turn raw data into a tool that solves those pain points:  
+
+- ⚡ **Faster decisions** → predictions in seconds, not hours  
+- 📊 **Clarity for everyone** → insights that even non-technical staff can act on  
+- 💾 **Proof on demand** → exportable reports ready for audits or management  
+
+👉 Imagine giving your risk team a dashboard that flags threats *before* they turn into losses.  
+That’s the power of building AI-driven apps like this: simple to use, but critical for protecting your business.
 """)
 st.divider()
+
 
 @st.cache_resource
 def load_model():
